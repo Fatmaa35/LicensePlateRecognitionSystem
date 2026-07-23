@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 13
+names: ['0', 'Bangku', 'Human', 'Jakarta', 'Kota Padang', 'Mobil', 'Pekanbaru Riau', 'Plat Kendaraan', 'Tangan', 'plat', 'plat-nomor', 'platNomor', 'plate']
+
+roboflow:
+  workspace: fatmas-workspace-8iipg
+  project: plat-number-seow5-mu2r8
+  version: dataset
+  license: CC BY 4.0
+  url: https://app.roboflow.com/fatmas-workspace-8iipg/plat-number-seow5-mu2r8/dataset
